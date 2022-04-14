@@ -1,0 +1,177 @@
+* {
+    font: roboto;
+}
+
+#header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: baseline;
+    margin: -10px;
+}
+
+#headerlogo {
+    display: flex;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: 200px;
+    color: #F9FAF8;
+}
+
+.hlinks {
+    margin-right: 25px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#hlinkultimo {
+    margin-right: 200px;
+}
+
+/* ------------------- */
+
+
+
+#hero {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    margin: -10px;
+
+}
+
+#herofirst {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0%;
+}
+
+#herotext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#herosubtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+img {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+#button {
+    background-color: #3882F6;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    display: flex;
+    margin-right: 197px;
+}
+
+/* ----------------------------- */
+
+#random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    text-align: center;
+}
+
+#mainsquare {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 25px;
+    align-content: center;
+    gap: 25px;
+}
+
+.square {
+    border-radius: 12px;
+    border-color: blue;
+    display: flex;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.txtsquare {
+    display: flex;
+    margin-top: 200px;
+}
+
+/*----------------------- */
+
+#thirdblock {
+    display: flex;
+    margin-top: 400px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 125px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#testimonial {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 125px;
+    font-weight: bolder;
+}
+
+/*-------------------------*/
+
+#calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-around;
+    border-radius: 12px;
+
+
+}
+
+#calltextfirst {
+    font-weight: bold;
+    color: white;
+}
+
+#calltextsecond {
+    color: white;
+}
+
+#callbutton {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    border-width: 5px;
+    border-color: white;
+    width: 125px;
+    height: 75px;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    margin: -10px;
+    text-align: center;
+}
